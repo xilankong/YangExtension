@@ -1,0 +1,38 @@
+PODS:
+  - DeviceKit (2.0.0)
+  - KeychainSwift (16.0.1)
+  - YangExtension (0.1.0):
+    - DeviceKit
+    - YangKeychainStore
+  - YangKeychainStore (0.1.0):
+    - KeychainSwift
+
+DEPENDENCIES:
+  - YangExtension (from `../`)
+  - YangKeychainStore (from `https://github.com/xilankong/YangKeychainStore.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DeviceKit
+    - KeychainSwift
+
+EXTERNAL SOURCES:
+  YangExtension:
+    :path: "../"
+  YangKeychainStore:
+    :git: https://github.com/xilankong/YangKeychainStore.git
+
+CHECKOUT OPTIONS:
+  YangKeychainStore:
+    :commit: 8f10e0e38b1d257f67095d20c585af441c1e53d1
+    :git: https://github.com/xilankong/YangKeychainStore.git
+
+SPEC CHECKSUMS:
+  DeviceKit: 72d36709552d4b3582abd76a53949148acad9811
+  KeychainSwift: 4209611373ca4a098e09b1e547eebd87c544dcc4
+  YangExtension: ebb2ca21a9f13dcbd71cda879a9c8076b38f72cd
+  YangKeychainStore: e5bc83402019820f356a1db9e70cef5984245e12
+
+PODFILE CHECKSUM: 62fefcbf4bb04973de8fadba6295791b7ced7219
+
+COCOAPODS: 1.7.2

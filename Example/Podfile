@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'YangExtension_Example' do
   pod 'YangExtension', :path => '../'
+  pod 'YangKeychainStore', :git => 'https://github.com/xilankong/YangKeychainStore.git'
 
   target 'YangExtension_Tests' do
     inherit! :search_paths

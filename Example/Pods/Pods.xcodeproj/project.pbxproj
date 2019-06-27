@@ -1,0 +1,1364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18591BC565A9DD7923920CE22B8E9948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7153FFAD2981A01B50D5935714257F99 /* Foundation.framework */; };
+		2B1AF8EF30381B46379523D6F28D78F2 /* Device.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF77F353CA5527ADBE6117C3515D68F /* Device.generated.swift */; };
+		320E018022758AFD782991C7D8854DB1 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2F745FA8A2C98353A70C158B6C8741 /* TegKeychainConstants.swift */; };
+		3CF2257E252B0B698E04D6EF17F212D6 /* Pods-YangExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 760B9A0D8EF7B5943041432F5B8C0585 /* Pods-YangExtension_Tests-dummy.m */; };
+		408A8B909395C0857BF9D5A01E042FDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7153FFAD2981A01B50D5935714257F99 /* Foundation.framework */; };
+		485A776035D4B1EF97E8AE0E95A66502 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511B7B907001674E3742DDBEAC8B699 /* KeychainSwiftAccessOptions.swift */; };
+		4B255EB0716A1BB473E696C20812C697 /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C1067CDD2453F948EA4324647B60DF /* KeychainSwift-dummy.m */; };
+		4DC6C132AEF3E02BDD5ABC89333233B3 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D830A1455AAD7B10A034FE8593ACC /* KeychainSwift.swift */; };
+		59617574D268DFE7C5440267F9AF5A9D /* DeviceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE5D30E8AAA1B8E0E1C78557773B8A1 /* DeviceKit-dummy.m */; };
+		6172B7D0F222412987F91C510337A145 /* DeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949364905DD76DF2E411C343EB868C5A /* DeviceKit.framework */; };
+		6409565BA69B6CFF6A4C54FAB4B22050 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141C2896CF7704B50BA67C0CBD52463F /* KeychainSwift.framework */; };
+		6657498C0808881DF4D8022AE5D2ECFA /* YangKeychainStore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8FD65661C101F093FAE158214CA3D7 /* YangKeychainStore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		666DB8C81CEFFFE9D55BB26E692B999A /* DeviceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A756CF4243C1837F93A242F02F7821 /* DeviceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B869D831C39B0C9252BDFD65B9555FE /* Device+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9925161B9D1D8F29ED5A30A810A533 /* Device+Extension.swift */; };
+		74DDBF47539EB98680E83BD95227DD8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7153FFAD2981A01B50D5935714257F99 /* Foundation.framework */; };
+		7DCF0F7D5856721F4F704CFBCEF993CB /* YangExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C748427D7738699CFCBFBFD698F196 /* YangExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8705D3732B9184BC9CF18092650B68A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7153FFAD2981A01B50D5935714257F99 /* Foundation.framework */; };
+		8E1261AA86B6FE879FBE99D41F840C4D /* Pods-YangExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5CD98A8518AC02932F6767CE3FF567 /* Pods-YangExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA1B236FF097EF5FF40A218981967453 /* YangKeychainStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48712B0A72716A51D110C3C08C9EDD83 /* YangKeychainStore-dummy.m */; };
+		C3905037CE8620D38EF4DA0AB90C106C /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C78CCFF546329F4C2BC2826A9F84DE4 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBE64A4966AFC70BF96AEFB40D4AF2A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7153FFAD2981A01B50D5935714257F99 /* Foundation.framework */; };
+		D6F251325939F11021EAAC1223404FB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7153FFAD2981A01B50D5935714257F99 /* Foundation.framework */; };
+		E347EB80846FBF42728BE9AE4FF394B1 /* YangKeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAD4F870286510ACF79E2520F9B3669 /* YangKeychainStore.swift */; };
+		E3E30C990F490501875E9D46D7511AC9 /* YangExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 083E680E1385950EE215642505373A19 /* YangExtension-dummy.m */; };
+		EA032A9486D21439F2A971B946D18A07 /* YangKeychainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB8FCBAC260D0A82557C270B5C68987 /* YangKeychainStore.framework */; };
+		EEAF84FB4099C9509A348646A51B0319 /* Pods-YangExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 648917345161005938F8CF17D6188B61 /* Pods-YangExtension_Example-dummy.m */; };
+		F6980797CBF47DD73B4908A339913AF4 /* Pods-YangExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 349F18738AF1D0134BA4169D9FB804C2 /* Pods-YangExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		126A9676174AD92944E96428DCD1F423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
+		8EE134C04B9C0A4D33951C4CE7B74CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B2F6E37E95BA31FA4455B8C7B788DD;
+			remoteInfo = YangKeychainStore;
+		};
+		ABF994C2B8E78F7A234118F50D47B0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDD1C6C8885D07092D8EA708AAC0E53;
+			remoteInfo = DeviceKit;
+		};
+		B55033BDB6BC1CE2AA0E4E4BC084139E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BBAD6B80E8D0E2875BD9DDB9A4BF1B0;
+			remoteInfo = YangExtension;
+		};
+		C29E6F0C256066C4DF16B121298AAFF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B2F6E37E95BA31FA4455B8C7B788DD;
+			remoteInfo = YangKeychainStore;
+		};
+		C910FFBC5C085A62DF1D7AB5A59DD199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
+		D4D8A0109CC1CEEC59C83AC60C0A92B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDD1C6C8885D07092D8EA708AAC0E53;
+			remoteInfo = DeviceKit;
+		};
+		EA4311BDA739819D07C61E5E898F3CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BBECBD5BF44559A068E2980D9F47FF5;
+			remoteInfo = "Pods-YangExtension_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04530A9CB7EB6013A4CAA6339F63FFBE /* Pods-YangExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		083E680E1385950EE215642505373A19 /* YangExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YangExtension-dummy.m"; sourceTree = "<group>"; };
+		10AA036737EA044F20DBD9379B516CCE /* DeviceKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.xcconfig; sourceTree = "<group>"; };
+		10C5B2C009AA5904F8F6616A368F558A /* Pods-YangExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YangExtension_Example.modulemap"; sourceTree = "<group>"; };
+		10F71BE43FD70266CABAAE2641659B39 /* YangExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YangExtension.modulemap; sourceTree = "<group>"; };
+		11D71F325EAAF983EBE84426BB1FD040 /* Pods_YangExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangExtension_Example.framework; path = "Pods-YangExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		141C2896CF7704B50BA67C0CBD52463F /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeviceKit.framework; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B660151F61C1D3F20C7AE785EE2164D /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
+		24A756CF4243C1837F93A242F02F7821 /* DeviceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-umbrella.h"; sourceTree = "<group>"; };
+		2706D1ACC753E5193887E36430BFCC2C /* Pods-YangExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C20C041426620B249BA6200042BB610 /* Pods-YangExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C5CD98A8518AC02932F6767CE3FF567 /* Pods-YangExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangExtension_Example-umbrella.h"; sourceTree = "<group>"; };
+		2C78CCFF546329F4C2BC2826A9F84DE4 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		349F18738AF1D0134BA4169D9FB804C2 /* Pods-YangExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3A3C7E2A9E0955C2B21C4F461E994ADB /* YangKeychainStore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YangKeychainStore-Info.plist"; sourceTree = "<group>"; };
+		3DFB1B0EE0CFAC8B7A850FD734E59637 /* DeviceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeviceKit.modulemap; sourceTree = "<group>"; };
+		3E1F02357477DAF8648A2545DD67C94A /* YangKeychainStore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YangKeychainStore.modulemap; sourceTree = "<group>"; };
+		48712B0A72716A51D110C3C08C9EDD83 /* YangKeychainStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YangKeychainStore-dummy.m"; sourceTree = "<group>"; };
+		4AF77F353CA5527ADBE6117C3515D68F /* Device.generated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.generated.swift; path = Source/Device.generated.swift; sourceTree = "<group>"; };
+		59FD415579CE420178BA14BBB90D4F4E /* YangExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YangExtension-Info.plist"; sourceTree = "<group>"; };
+		61385532352307574CCA467EC2D15768 /* YangExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangExtension-prefix.pch"; sourceTree = "<group>"; };
+		648917345161005938F8CF17D6188B61 /* Pods-YangExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangExtension_Example-dummy.m"; sourceTree = "<group>"; };
+		6664FFF71E6F13F620A17DF42F3C75C8 /* YangKeychainStore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangKeychainStore-prefix.pch"; sourceTree = "<group>"; };
+		666D851D4F977168FECA4CDFF7CF341B /* Pods-YangExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangExtension_Example-Info.plist"; sourceTree = "<group>"; };
+		67C6F77C0C097C580A34D307B207841B /* YangExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YangExtension.xcconfig; sourceTree = "<group>"; };
+		6AB8FCBAC260D0A82557C270B5C68987 /* YangKeychainStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YangKeychainStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6856388067CCE6012AD5C9E91785DA /* Pods-YangExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YangExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		7153FFAD2981A01B50D5935714257F99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		760B9A0D8EF7B5943041432F5B8C0585 /* Pods-YangExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangExtension_Tests-dummy.m"; sourceTree = "<group>"; };
+		820FD694058D88352CDBAEE2B8458E63 /* KeychainSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.xcconfig; sourceTree = "<group>"; };
+		821727EE102E1AC00CBB186CA6ABC08C /* Pods-YangExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		84C748427D7738699CFCBFBFD698F196 /* YangExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangExtension-umbrella.h"; sourceTree = "<group>"; };
+		8BB18F7FE5A6B492126F7CEB9529C70D /* YangKeychainStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YangKeychainStore.framework; path = YangKeychainStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8405B3A04E03B84D929F0A4F2383FA /* Pods-YangExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangExtension_Tests-Info.plist"; sourceTree = "<group>"; };
+		8F4F466D28D249469A674B941EC45CCE /* Pods_YangExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangExtension_Tests.framework; path = "Pods-YangExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9020758C817B8421EA04A362ECF5E706 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		949364905DD76DF2E411C343EB868C5A /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2F745FA8A2C98353A70C158B6C8741 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift.framework; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE5B5DB07265D1403BBDF9426092293 /* YangExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YangExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A49EB2A20A4E9139C70AF72DB4125BF6 /* YangExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YangExtension.framework; path = YangExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7246ED6B9EE7B85B8E8C116433079D /* Pods-YangExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB6FE3E775EE1154CAA02E34A78BA593 /* Pods-YangExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BB8FD65661C101F093FAE158214CA3D7 /* YangKeychainStore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangKeychainStore-umbrella.h"; sourceTree = "<group>"; };
+		BDAD4F870286510ACF79E2520F9B3669 /* YangKeychainStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YangKeychainStore.swift; path = YangKeychainStore/Classes/YangKeychainStore.swift; sourceTree = "<group>"; };
+		BFA5086D3EE7CD8D32DFDDA9B9F8E9DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C1C1067CDD2453F948EA4324647B60DF /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		C511B7B907001674E3742DDBEAC8B699 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
+		C798AD0F60191731AE0478FD65183614 /* Pods-YangExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YangExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBF97E77940E2D651D03141E18BFD35E /* DeviceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeviceKit-Info.plist"; sourceTree = "<group>"; };
+		CDBB67E1E3BA3816B53FDE04155653E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CF9925161B9D1D8F29ED5A30A810A533 /* Device+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Device+Extension.swift"; path = "YangExtension/Classes/Foundation/Device+Extension.swift"; sourceTree = "<group>"; };
+		CFFE2CC372585FBFAA7628231C34721A /* Pods-YangExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DB0621FED2BAA51F02F6612E0C996670 /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
+		DBE5D30E8AAA1B8E0E1C78557773B8A1 /* DeviceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeviceKit-dummy.m"; sourceTree = "<group>"; };
+		DBEF41CDA9A2B45890FAA9CE5D7CEE7D /* YangKeychainStore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YangKeychainStore.xcconfig; sourceTree = "<group>"; };
+		E59FD6726B4A73B82F6DB4ECC6116707 /* Pods-YangExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YangExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E996192D1B42A3322C40112393B44E92 /* DeviceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-prefix.pch"; sourceTree = "<group>"; };
+		F42D830A1455AAD7B10A034FE8593ACC /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		226F40E43A712D834B1A4919E9D8C367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6172B7D0F222412987F91C510337A145 /* DeviceKit.framework in Frameworks */,
+				D6F251325939F11021EAAC1223404FB0 /* Foundation.framework in Frameworks */,
+				EA032A9486D21439F2A971B946D18A07 /* YangKeychainStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2A9F195399A771D5E644536E9F6CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DDBF47539EB98680E83BD95227DD8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C888645D85B9DDB82A0D916C09D5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE64A4966AFC70BF96AEFB40D4AF2A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8975BBF6B18DB78E85FAC25E7B8431CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8705D3732B9184BC9CF18092650B68A2 /* Foundation.framework in Frameworks */,
+				6409565BA69B6CFF6A4C54FAB4B22050 /* KeychainSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FECD5A7733922CF998FBBC70250B56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18591BC565A9DD7923920CE22B8E9948 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFBD94463E0AE6811784AF3142991A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408A8B909395C0857BF9D5A01E042FDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13265F98F5F2B733BBEE49D782B3F962 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB41F2E15593D26108C4EAF28440EB /* YangExtension */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4E131F88C62E2EF1FA591CD6D639A509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				949364905DD76DF2E411C343EB868C5A /* DeviceKit.framework */,
+				141C2896CF7704B50BA67C0CBD52463F /* KeychainSwift.framework */,
+				6AB8FCBAC260D0A82557C270B5C68987 /* YangKeychainStore.framework */,
+				8C410F9291CC2BB0FB61A369522A55E5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E511FC81366A3C96B951DF00B1AC3AA /* YangKeychainStore */ = {
+			isa = PBXGroup;
+			children = (
+				BDAD4F870286510ACF79E2520F9B3669 /* YangKeychainStore.swift */,
+				D4B50336016A7C1F2ABB31D9BE888284 /* Support Files */,
+			);
+			name = YangKeychainStore;
+			path = YangKeychainStore;
+			sourceTree = "<group>";
+		};
+		54F68FEFB32751260C181FAEC0936154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit.framework */,
+				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */,
+				11D71F325EAAF983EBE84426BB1FD040 /* Pods_YangExtension_Example.framework */,
+				8F4F466D28D249469A674B941EC45CCE /* Pods_YangExtension_Tests.framework */,
+				A49EB2A20A4E9139C70AF72DB4125BF6 /* YangExtension.framework */,
+				8BB18F7FE5A6B492126F7CEB9529C70D /* YangKeychainStore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EF7CB3A662C8BDCD82070ADCC6CAB92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DFB1B0EE0CFAC8B7A850FD734E59637 /* DeviceKit.modulemap */,
+				10AA036737EA044F20DBD9379B516CCE /* DeviceKit.xcconfig */,
+				DBE5D30E8AAA1B8E0E1C78557773B8A1 /* DeviceKit-dummy.m */,
+				CBF97E77940E2D651D03141E18BFD35E /* DeviceKit-Info.plist */,
+				E996192D1B42A3322C40112393B44E92 /* DeviceKit-prefix.pch */,
+				24A756CF4243C1837F93A242F02F7821 /* DeviceKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DeviceKit";
+			sourceTree = "<group>";
+		};
+		76D6CEE7F53D422F691EDCD950FA6AFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8FA30FCFFAC69D1D8E88ABFEA309A01 /* Pods-YangExtension_Example */,
+				7FC82452B5643910F7D93252BB05BA95 /* Pods-YangExtension_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BBC2CDEC29BC1EC42E970ED68F08000 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10F71BE43FD70266CABAAE2641659B39 /* YangExtension.modulemap */,
+				67C6F77C0C097C580A34D307B207841B /* YangExtension.xcconfig */,
+				083E680E1385950EE215642505373A19 /* YangExtension-dummy.m */,
+				59FD415579CE420178BA14BBB90D4F4E /* YangExtension-Info.plist */,
+				61385532352307574CCA467EC2D15768 /* YangExtension-prefix.pch */,
+				84C748427D7738699CFCBFBFD698F196 /* YangExtension-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YangExtension";
+			sourceTree = "<group>";
+		};
+		7FC82452B5643910F7D93252BB05BA95 /* Pods-YangExtension_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6B6856388067CCE6012AD5C9E91785DA /* Pods-YangExtension_Tests.modulemap */,
+				E59FD6726B4A73B82F6DB4ECC6116707 /* Pods-YangExtension_Tests-acknowledgements.markdown */,
+				2C20C041426620B249BA6200042BB610 /* Pods-YangExtension_Tests-acknowledgements.plist */,
+				760B9A0D8EF7B5943041432F5B8C0585 /* Pods-YangExtension_Tests-dummy.m */,
+				8E8405B3A04E03B84D929F0A4F2383FA /* Pods-YangExtension_Tests-Info.plist */,
+				349F18738AF1D0134BA4169D9FB804C2 /* Pods-YangExtension_Tests-umbrella.h */,
+				AF7246ED6B9EE7B85B8E8C116433079D /* Pods-YangExtension_Tests.debug.xcconfig */,
+				2706D1ACC753E5193887E36430BFCC2C /* Pods-YangExtension_Tests.release.xcconfig */,
+			);
+			name = "Pods-YangExtension_Tests";
+			path = "Target Support Files/Pods-YangExtension_Tests";
+			sourceTree = "<group>";
+		};
+		8C410F9291CC2BB0FB61A369522A55E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7153FFAD2981A01B50D5935714257F99 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A31D5B3DD0B54F2986E3C3C96FB7651A /* KeychainSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F42D830A1455AAD7B10A034FE8593ACC /* KeychainSwift.swift */,
+				C511B7B907001674E3742DDBEAC8B699 /* KeychainSwiftAccessOptions.swift */,
+				9C2F745FA8A2C98353A70C158B6C8741 /* TegKeychainConstants.swift */,
+				C3AE612BCED08C11ABBD6DCE743BECAF /* Support Files */,
+			);
+			name = KeychainSwift;
+			path = KeychainSwift;
+			sourceTree = "<group>";
+		};
+		B320AFD7E59489A8B3879F4579C2D19D /* DeviceKit */ = {
+			isa = PBXGroup;
+			children = (
+				4AF77F353CA5527ADBE6117C3515D68F /* Device.generated.swift */,
+				6EF7CB3A662C8BDCD82070ADCC6CAB92 /* Support Files */,
+			);
+			name = DeviceKit;
+			path = DeviceKit;
+			sourceTree = "<group>";
+		};
+		B7A4F9D631A1C7BF7F871AE48F1B8104 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B320AFD7E59489A8B3879F4579C2D19D /* DeviceKit */,
+				A31D5B3DD0B54F2986E3C3C96FB7651A /* KeychainSwift */,
+				4E511FC81366A3C96B951DF00B1AC3AA /* YangKeychainStore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBAB41F2E15593D26108C4EAF28440EB /* YangExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CF9925161B9D1D8F29ED5A30A810A533 /* Device+Extension.swift */,
+				C8FB52A6CEA8C71AE8D55F871C7DE2EB /* Pod */,
+				7BBC2CDEC29BC1EC42E970ED68F08000 /* Support Files */,
+			);
+			name = YangExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C3AE612BCED08C11ABBD6DCE743BECAF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9020758C817B8421EA04A362ECF5E706 /* KeychainSwift.modulemap */,
+				820FD694058D88352CDBAEE2B8458E63 /* KeychainSwift.xcconfig */,
+				C1C1067CDD2453F948EA4324647B60DF /* KeychainSwift-dummy.m */,
+				DB0621FED2BAA51F02F6612E0C996670 /* KeychainSwift-Info.plist */,
+				1B660151F61C1D3F20C7AE785EE2164D /* KeychainSwift-prefix.pch */,
+				2C78CCFF546329F4C2BC2826A9F84DE4 /* KeychainSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainSwift";
+			sourceTree = "<group>";
+		};
+		C8FB52A6CEA8C71AE8D55F871C7DE2EB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BFA5086D3EE7CD8D32DFDDA9B9F8E9DC /* LICENSE */,
+				CDBB67E1E3BA3816B53FDE04155653E2 /* README.md */,
+				9FE5B5DB07265D1403BBDF9426092293 /* YangExtension.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				13265F98F5F2B733BBEE49D782B3F962 /* Development Pods */,
+				4E131F88C62E2EF1FA591CD6D639A509 /* Frameworks */,
+				B7A4F9D631A1C7BF7F871AE48F1B8104 /* Pods */,
+				54F68FEFB32751260C181FAEC0936154 /* Products */,
+				76D6CEE7F53D422F691EDCD950FA6AFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4B50336016A7C1F2ABB31D9BE888284 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E1F02357477DAF8648A2545DD67C94A /* YangKeychainStore.modulemap */,
+				DBEF41CDA9A2B45890FAA9CE5D7CEE7D /* YangKeychainStore.xcconfig */,
+				48712B0A72716A51D110C3C08C9EDD83 /* YangKeychainStore-dummy.m */,
+				3A3C7E2A9E0955C2B21C4F461E994ADB /* YangKeychainStore-Info.plist */,
+				6664FFF71E6F13F620A17DF42F3C75C8 /* YangKeychainStore-prefix.pch */,
+				BB8FD65661C101F093FAE158214CA3D7 /* YangKeychainStore-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YangKeychainStore";
+			sourceTree = "<group>";
+		};
+		E8FA30FCFFAC69D1D8E88ABFEA309A01 /* Pods-YangExtension_Example */ = {
+			isa = PBXGroup;
+			children = (
+				10C5B2C009AA5904F8F6616A368F558A /* Pods-YangExtension_Example.modulemap */,
+				C798AD0F60191731AE0478FD65183614 /* Pods-YangExtension_Example-acknowledgements.markdown */,
+				04530A9CB7EB6013A4CAA6339F63FFBE /* Pods-YangExtension_Example-acknowledgements.plist */,
+				648917345161005938F8CF17D6188B61 /* Pods-YangExtension_Example-dummy.m */,
+				BB6FE3E775EE1154CAA02E34A78BA593 /* Pods-YangExtension_Example-frameworks.sh */,
+				666D851D4F977168FECA4CDFF7CF341B /* Pods-YangExtension_Example-Info.plist */,
+				2C5CD98A8518AC02932F6767CE3FF567 /* Pods-YangExtension_Example-umbrella.h */,
+				821727EE102E1AC00CBB186CA6ABC08C /* Pods-YangExtension_Example.debug.xcconfig */,
+				CFFE2CC372585FBFAA7628231C34721A /* Pods-YangExtension_Example.release.xcconfig */,
+			);
+			name = "Pods-YangExtension_Example";
+			path = "Target Support Files/Pods-YangExtension_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		162E426BFDDFDFD32EF482D015420A3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666DB8C81CEFFFE9D55BB26E692B999A /* DeviceKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7150AA54546C39061F2253A6887B6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6657498C0808881DF4D8022AE5D2ECFA /* YangKeychainStore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D16E960729AE30A53413D82B8DE63B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6980797CBF47DD73B4908A339913AF4 /* Pods-YangExtension_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97BD77ADDCAB6FA6CF7529B5308B0918 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3905037CE8620D38EF4DA0AB90C106C /* KeychainSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31E1FB7515562E6B99E56C4E9D3DA34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1261AA86B6FE879FBE99D41F840C4D /* Pods-YangExtension_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B721F2238BCE52746F217567A869D2E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCF0F7D5856721F4F704CFBCEF993CB /* YangExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B334E2C50C2C0C66D96CADAEE2EA01 /* Build configuration list for PBXNativeTarget "KeychainSwift" */;
+			buildPhases = (
+				97BD77ADDCAB6FA6CF7529B5308B0918 /* Headers */,
+				E3B35C6F6E358284C831471583BD04CD /* Sources */,
+				4A2A9F195399A771D5E644536E9F6CF4 /* Frameworks */,
+				29186A7FC9690C20BDE41949C4FFD3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainSwift;
+			productName = KeychainSwift;
+			productReference = 9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		135F9E2990A39133111DDCF21B6161F1 /* Pods-YangExtension_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8830CDAAE5DF2C6AF7EBFAD9D88CA2 /* Build configuration list for PBXNativeTarget "Pods-YangExtension_Tests" */;
+			buildPhases = (
+				8D16E960729AE30A53413D82B8DE63B9 /* Headers */,
+				8C1578807F25416FED11BB531A4427FB /* Sources */,
+				60C888645D85B9DDB82A0D916C09D5E3 /* Frameworks */,
+				90B175EB6B54A0C87503D5BF66B68E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B06566E04022D2A7F635F894ED63B617 /* PBXTargetDependency */,
+			);
+			name = "Pods-YangExtension_Tests";
+			productName = "Pods-YangExtension_Tests";
+			productReference = 8F4F466D28D249469A674B941EC45CCE /* Pods_YangExtension_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1BBECBD5BF44559A068E2980D9F47FF5 /* Pods-YangExtension_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0095D902899D81AD14A1D8A8E3C4A4E6 /* Build configuration list for PBXNativeTarget "Pods-YangExtension_Example" */;
+			buildPhases = (
+				A31E1FB7515562E6B99E56C4E9D3DA34 /* Headers */,
+				57265341227EF7211DABDDA147AD463B /* Sources */,
+				ADFBD94463E0AE6811784AF3142991A0 /* Frameworks */,
+				997C4B98AF2AA14A6F962FAFD3BA1295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7CEA27B677C862257D89666B7299EF9 /* PBXTargetDependency */,
+				AADC7ABBFFEFC10E0C332FBB96AEECF4 /* PBXTargetDependency */,
+				5564D9137979F5604F822E00E9598199 /* PBXTargetDependency */,
+				68998E3C5B6E8A8432F75FB5E4D4B0CE /* PBXTargetDependency */,
+			);
+			name = "Pods-YangExtension_Example";
+			productName = "Pods-YangExtension_Example";
+			productReference = 11D71F325EAAF983EBE84426BB1FD040 /* Pods_YangExtension_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AC05C163DBB658D212E5CA21CA8B4A /* Build configuration list for PBXNativeTarget "DeviceKit" */;
+			buildPhases = (
+				162E426BFDDFDFD32EF482D015420A3C /* Headers */,
+				FE4F63D170D46A07750B3ACC5468DFC4 /* Sources */,
+				9FECD5A7733922CF998FBBC70250B56B /* Frameworks */,
+				428FC4A1AFC625758EC014C4EBBA2A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceKit;
+			productName = DeviceKit;
+			productReference = 190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56B2F6E37E95BA31FA4455B8C7B788DD /* YangKeychainStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9E77F7BFEA9AA16D795707BE085D85 /* Build configuration list for PBXNativeTarget "YangKeychainStore" */;
+			buildPhases = (
+				2C7150AA54546C39061F2253A6887B6D /* Headers */,
+				B3FB5C948C332C430F920DF32D3CEA88 /* Sources */,
+				8975BBF6B18DB78E85FAC25E7B8431CE /* Frameworks */,
+				7ADF9EB53B17CB001FB6D686654EC797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A35A744A93D39B00527F295F7BFCFB8F /* PBXTargetDependency */,
+			);
+			name = YangKeychainStore;
+			productName = YangKeychainStore;
+			productReference = 8BB18F7FE5A6B492126F7CEB9529C70D /* YangKeychainStore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BBAD6B80E8D0E2875BD9DDB9A4BF1B0 /* YangExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB9D90ECB55FD0B8BB6F31CFEF23306 /* Build configuration list for PBXNativeTarget "YangExtension" */;
+			buildPhases = (
+				B721F2238BCE52746F217567A869D2E2 /* Headers */,
+				C8863CBE036E905554B95754D4B7333E /* Sources */,
+				226F40E43A712D834B1A4919E9D8C367 /* Frameworks */,
+				3F03CB273A6FC482F23D9F0E955827DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6188EA90ABF85B509F440964486510CB /* PBXTargetDependency */,
+				81DF3517E3889696BEC619945FB23B7D /* PBXTargetDependency */,
+			);
+			name = YangExtension;
+			productName = YangExtension;
+			productReference = A49EB2A20A4E9139C70AF72DB4125BF6 /* YangExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 54F68FEFB32751260C181FAEC0936154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */,
+				07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */,
+				1BBECBD5BF44559A068E2980D9F47FF5 /* Pods-YangExtension_Example */,
+				135F9E2990A39133111DDCF21B6161F1 /* Pods-YangExtension_Tests */,
+				5BBAD6B80E8D0E2875BD9DDB9A4BF1B0 /* YangExtension */,
+				56B2F6E37E95BA31FA4455B8C7B788DD /* YangKeychainStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29186A7FC9690C20BDE41949C4FFD3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F03CB273A6FC482F23D9F0E955827DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428FC4A1AFC625758EC014C4EBBA2A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADF9EB53B17CB001FB6D686654EC797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B175EB6B54A0C87503D5BF66B68E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997C4B98AF2AA14A6F962FAFD3BA1295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57265341227EF7211DABDDA147AD463B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAF84FB4099C9509A348646A51B0319 /* Pods-YangExtension_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1578807F25416FED11BB531A4427FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF2257E252B0B698E04D6EF17F212D6 /* Pods-YangExtension_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FB5C948C332C430F920DF32D3CEA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1B236FF097EF5FF40A218981967453 /* YangKeychainStore-dummy.m in Sources */,
+				E347EB80846FBF42728BE9AE4FF394B1 /* YangKeychainStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8863CBE036E905554B95754D4B7333E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B869D831C39B0C9252BDFD65B9555FE /* Device+Extension.swift in Sources */,
+				E3E30C990F490501875E9D46D7511AC9 /* YangExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B35C6F6E358284C831471583BD04CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B255EB0716A1BB473E696C20812C697 /* KeychainSwift-dummy.m in Sources */,
+				4DC6C132AEF3E02BDD5ABC89333233B3 /* KeychainSwift.swift in Sources */,
+				485A776035D4B1EF97E8AE0E95A66502 /* KeychainSwiftAccessOptions.swift in Sources */,
+				320E018022758AFD782991C7D8854DB1 /* TegKeychainConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4F63D170D46A07750B3ACC5468DFC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1AF8EF30381B46379523D6F28D78F2 /* Device.generated.swift in Sources */,
+				59617574D268DFE7C5440267F9AF5A9D /* DeviceKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5564D9137979F5604F822E00E9598199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YangExtension;
+			target = 5BBAD6B80E8D0E2875BD9DDB9A4BF1B0 /* YangExtension */;
+			targetProxy = B55033BDB6BC1CE2AA0E4E4BC084139E /* PBXContainerItemProxy */;
+		};
+		6188EA90ABF85B509F440964486510CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeviceKit;
+			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
+			targetProxy = D4D8A0109CC1CEEC59C83AC60C0A92B9 /* PBXContainerItemProxy */;
+		};
+		68998E3C5B6E8A8432F75FB5E4D4B0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YangKeychainStore;
+			target = 56B2F6E37E95BA31FA4455B8C7B788DD /* YangKeychainStore */;
+			targetProxy = C29E6F0C256066C4DF16B121298AAFF3 /* PBXContainerItemProxy */;
+		};
+		81DF3517E3889696BEC619945FB23B7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YangKeychainStore;
+			target = 56B2F6E37E95BA31FA4455B8C7B788DD /* YangKeychainStore */;
+			targetProxy = 8EE134C04B9C0A4D33951C4CE7B74CFB /* PBXContainerItemProxy */;
+		};
+		A35A744A93D39B00527F295F7BFCFB8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
+			targetProxy = C910FFBC5C085A62DF1D7AB5A59DD199 /* PBXContainerItemProxy */;
+		};
+		AADC7ABBFFEFC10E0C332FBB96AEECF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
+			targetProxy = 126A9676174AD92944E96428DCD1F423 /* PBXContainerItemProxy */;
+		};
+		B06566E04022D2A7F635F894ED63B617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YangExtension_Example";
+			target = 1BBECBD5BF44559A068E2980D9F47FF5 /* Pods-YangExtension_Example */;
+			targetProxy = EA4311BDA739819D07C61E5E898F3CED /* PBXContainerItemProxy */;
+		};
+		C7CEA27B677C862257D89666B7299EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeviceKit;
+			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
+			targetProxy = ABF994C2B8E78F7A234118F50D47B0BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18450ABAF2FCF07311760F6F549A9181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AA036737EA044F20DBD9379B516CCE /* DeviceKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
+				PRODUCT_MODULE_NAME = DeviceKit;
+				PRODUCT_NAME = DeviceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BB042CB7DAA8DDEEB3426C5D1BA4C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820FD694058D88352CDBAEE2B8458E63 /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		509D0A830A78844072A35B60A453A165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFE2CC372585FBFAA7628231C34721A /* Pods-YangExtension_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangExtension_Example/Pods-YangExtension_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangExtension_Example/Pods-YangExtension_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83DD52FA9DDAD0A1DA7F3D6D683D804D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2706D1ACC753E5193887E36430BFCC2C /* Pods-YangExtension_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangExtension_Tests/Pods-YangExtension_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangExtension_Tests/Pods-YangExtension_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91ADCC7A6C03F01847EBD2B9EBBBE638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AA036737EA044F20DBD9379B516CCE /* DeviceKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
+				PRODUCT_MODULE_NAME = DeviceKit;
+				PRODUCT_NAME = DeviceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95D25BCA611507C77E95B277252261BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821727EE102E1AC00CBB186CA6ABC08C /* Pods-YangExtension_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangExtension_Example/Pods-YangExtension_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangExtension_Example/Pods-YangExtension_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		967042E6D5A1A14F5EC65832ABBAF645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C6F77C0C097C580A34D307B207841B /* YangExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YangExtension/YangExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YangExtension/YangExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YangExtension/YangExtension.modulemap";
+				PRODUCT_MODULE_NAME = YangExtension;
+				PRODUCT_NAME = YangExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC78E7774469C0229AEC43A697D4C095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C6F77C0C097C580A34D307B207841B /* YangExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YangExtension/YangExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YangExtension/YangExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YangExtension/YangExtension.modulemap";
+				PRODUCT_MODULE_NAME = YangExtension;
+				PRODUCT_NAME = YangExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BECD91F2AC66A591AF673AAC2E32D48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBEF41CDA9A2B45890FAA9CE5D7CEE7D /* YangKeychainStore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YangKeychainStore/YangKeychainStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YangKeychainStore/YangKeychainStore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YangKeychainStore/YangKeychainStore.modulemap";
+				PRODUCT_MODULE_NAME = YangKeychainStore;
+				PRODUCT_NAME = YangKeychainStore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEC76B28C95B8C0E47BF7630827E1AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7246ED6B9EE7B85B8E8C116433079D /* Pods-YangExtension_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangExtension_Tests/Pods-YangExtension_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangExtension_Tests/Pods-YangExtension_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB2B1568A4BD4B3105AD080141C023CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820FD694058D88352CDBAEE2B8458E63 /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDE231F02EB70D108408915ED4954702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBEF41CDA9A2B45890FAA9CE5D7CEE7D /* YangKeychainStore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YangKeychainStore/YangKeychainStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YangKeychainStore/YangKeychainStore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YangKeychainStore/YangKeychainStore.modulemap";
+				PRODUCT_MODULE_NAME = YangKeychainStore;
+				PRODUCT_NAME = YangKeychainStore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0095D902899D81AD14A1D8A8E3C4A4E6 /* Build configuration list for PBXNativeTarget "Pods-YangExtension_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D25BCA611507C77E95B277252261BF /* Debug */,
+				509D0A830A78844072A35B60A453A165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8830CDAAE5DF2C6AF7EBFAD9D88CA2 /* Build configuration list for PBXNativeTarget "Pods-YangExtension_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC76B28C95B8C0E47BF7630827E1AE1 /* Debug */,
+				83DD52FA9DDAD0A1DA7F3D6D683D804D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB9D90ECB55FD0B8BB6F31CFEF23306 /* Build configuration list for PBXNativeTarget "YangExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC78E7774469C0229AEC43A697D4C095 /* Debug */,
+				967042E6D5A1A14F5EC65832ABBAF645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B334E2C50C2C0C66D96CADAEE2EA01 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB042CB7DAA8DDEEB3426C5D1BA4C77 /* Debug */,
+				DB2B1568A4BD4B3105AD080141C023CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9E77F7BFEA9AA16D795707BE085D85 /* Build configuration list for PBXNativeTarget "YangKeychainStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BECD91F2AC66A591AF673AAC2E32D48E /* Debug */,
+				DDE231F02EB70D108408915ED4954702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AC05C163DBB658D212E5CA21CA8B4A /* Build configuration list for PBXNativeTarget "DeviceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18450ABAF2FCF07311760F6F549A9181 /* Debug */,
+				91ADCC7A6C03F01847EBD2B9EBBBE638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

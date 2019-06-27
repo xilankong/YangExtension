@@ -1,0 +1,6 @@
+framework module Pods_YangExtension_Example {
+  umbrella header "Pods-YangExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

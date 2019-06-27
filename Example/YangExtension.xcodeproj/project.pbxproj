@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		2137F91D962552A80D64B9C7 /* Pods_YangExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28222578C41290B651AFEB54 /* YangExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YangExtension.podspec; path = ../YangExtension.podspec; sourceTree = "<group>"; };
-		4793FE160AF70CD65B9F9B04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		28222578C41290B651AFEB54 /* YangExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YangExtension.podspec; path = ../YangExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4793FE160AF70CD65B9F9B04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4ED71BDFEEF6130BB0EB9902 /* Pods_YangExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* YangExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YangExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		D65857A88A8A2F08C19E1838 /* Pods-YangExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-YangExtension_Example/Pods-YangExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DBC97410F022BBBE148888D8 /* Pods-YangExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YangExtension_Tests/Pods-YangExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DCFBB60B21172F73E429E336 /* Pods-YangExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangExtension_Example.debug.xcconfig"; path = "Target Support Files/Pods-YangExtension_Example/Pods-YangExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F0FCC91B674D3547285E65F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F0FCC91B674D3547285E65F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				DBC97410F022BBBE148888D8 /* Pods-YangExtension_Tests.debug.xcconfig */,
 				92A0AA95A74C623A318171D8 /* Pods-YangExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -313,11 +313,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YangExtension_Example/Pods-YangExtension_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/YangExtension/YangExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/YangKeychainStore/YangKeychainStore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YangExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YangKeychainStore.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
